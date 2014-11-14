@@ -1,5 +1,5 @@
 {
-    "name": "franz-deleon/fdl-oauth2-provider",
+    "name": "jotjunior/fdl-oauth2-provider",
     "type": "library",
     "description": "ZF2 OAuth2 Provider module",
     "keywords": [
@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.9",
-        "bshaffer/oauth2-server-php": "~1.3",
+        "jotjunior/oauth2-server-php": "dev-master",
         "zendframework/zend-loader": "~2.1",
         "zendframework/zend-mvc": "~2.1",
         "zendframework/zend-modulemanager": "~2.1",
@@ -27,6 +27,12 @@
         "zendframework/zend-stdlib": "~2.1",
         "zendframework/zend-view": "~2.1"
     },
+        "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/JotJunior/oauth2-server-php.git"
+        }
+    } 
     "autoload": {
         "psr-0": {
             "OAuth2Provider": "src/"
