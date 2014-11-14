@@ -27,12 +27,12 @@
         "zendframework/zend-stdlib": "~2.1",
         "zendframework/zend-view": "~2.1"
     },
-        "repositories": [
+    "repositories": [
         {
             "type": "git",
             "url": "https://github.com/JotJunior/oauth2-server-php.git"
         }
-    } 
+    ], 
     "autoload": {
         "psr-0": {
             "OAuth2Provider": "src/"
